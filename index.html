@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una pregunta especial para Miamoo ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Corazones flotantes de fondo -->
+    <div class="hearts-background" id="heartsBackground"></div>
+
+    <!-- Contenedor principal -->
+    <div class="container" id="mainContainer">
+        <div class="card">
+            <h1 class="title">Una pregunta especial para</h1>
+            <h2 class="subtitle">Miamoo</h2>
+
+            <!-- <p class="message">
+                Llevo días ensayando cómo decir esto<br>
+                Así que aquí va...
+            </p> -->
+
+            <!-- Imagen del osito -->
+            <div class="bear-container">
+                <img src="assets/icons/cat.jpg" alt="Osito enamorado" class="bear-image">
+            </div>
+
+            <!-- La pregunta principal -->
+            <div class="question-box">
+                <h3 class="question">¿Quieres ser mi san valentín?</h3>
+            </div>
+
+            <!-- Modal de mensajes (solo visible en desktop/tablet) -->
+            <div class="message-modal" id="messageModal">
+                <p class="modal-text" id="modalText"></p>
+            </div>
+
+            <!-- Botones -->
+            <div class="buttons-container">
+                <button class="btn btn-yes" id="yesBtn" onclick="handleYes()">
+                    <span class="btn-icon">💕</span> Sí
+                </button>
+                <button class="btn btn-no" id="noBtn" onclick="handleNo()">
+                    <span class="btn-icon">💔</span> No
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pantalla de celebración -->
+    <div class="celebration-screen" id="celebrationScreen">
+        <!-- Imagen del osito -->
+
+        <div class="celebration-content">
+            <div class="bear-container">
+                <img src="assets/icons/cat_kiss.jpg" alt="Osito enamorado" class="bear-image">
+            </div>
+            <h1 class="celebration-title">Sabía que dirías que sí! 💖 Mua 😘</h1>
+            <p class="celebration-message">
+                No apretaste el boton de NO verdad?<br>
+            </p>
+            <!-- <a href="mua/">dame clic</a> -->
+            <div class="celebration-hearts"></div>
+            <div class="fireworks" id="fireworks"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
