@@ -1,6 +1,6 @@
-# Una pregunta especial para Miamoo ❤️
+# Una pregunta especial para ti) ❤️
 
-Esta página web es una propuesta romántica e interactiva diseñada especialmente para pedirle a "Miamoo" ser su San Valentín. 
+Esta página web es una propuesta romántica e interactiva diseñada especialmente para pedirle a "Tu persona favorita" ser su San Valentín. 
 
 ## 📝 Descripción
 
